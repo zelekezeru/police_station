@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+                      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+                      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap/fonts/fontawesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="c-registration">
+    <script src="../bootstrap/js/popper.min.js"></script>
+    <title>Suspect Registration</title>
+    </head>
+<body style="background-color: #333333;">
+
+ 
+    
+                    <!--  HEADER SECTION  -->
+<header class="header bg-white">
+  <form class="form group form-inline">
+                    <!-- LOGO PICTURE -->
+    <img src="../img/logo.png" alt="Logo">
+    <h3 class="display-3 text-inverse text-center">Suspect Registeration</h3>
+  </form>
+</header>
+
+
+                     <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
+
+
+
+                     <!--  NAVIGATION SECTION  -->
+  <nav class="navbar navbar-light navbar-toggleable-md bg-inverse">
+    <div class="container">
+      
+          <button class="navbar-toggler navbar-toggler-center button-success bg-white" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon toggler-icon-white"></span></button>
+      
+          <div class="collapse navbar-collapse" id="navbarNav">
+          
+              <ul class="navbar-nav">
+                  <li class="nav-item mr-4">
+                      <a class="text-white" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mr-4">
+                      <a class="text-white" href="#">Cases</a>
+                  </li>
+                  <li class="nav-item mr-4">
+                      <a class="text-white" href="#">Officers</a>
+                  </li>
+                  <li class="nav-item mr-4">
+                    <a class="text-white" href="#">Notifications</a>
+                  </li>
+                  <li class="nav-item mr-4">
+                    <a class="text-white" href="#">Report</a>
+                  </li>
+                  <li class="nav-item mr-4">
+                      <a class="text-white" href="#">More</a>
+                  </li>
+              </ul>
+          
+          </div>
+                            <!--  SEARCH SECTION  -->
+          <form class="form group form-inline">
+            <input type="text" class="form-control mr-2" placeholder="Search"> </input>
+            <button class="btn btn-outline-warning">Search</button>
+          </form>
+        </div>
+    
+  </nav>
+  <br><br>
+        
+  </div>
+
+
+                        <!--  Criminal Registeration  -->
+
+  <div class="container bg-white text-inverse p-3 w-50">
+    <h3 class="desplay-5 text-white text-center bg-inverse mr-2 p-2">Fill the criminal information Form</h3>
+    <form class="form-group form-block w-75 p-2">
+      <div class="form-group">
+        <input type="text" id="c-first-name" class="form-control" placeholder="Enter First Name">
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="c-last-name" class="form-control" placeholder="Enter Last Name">
+      </div>
+      
+      <div class="form-group">
+        <label for="gender" class="mr-2">Gender</label>
+        <select class="form-control mr-2" id="gender">
+            <option>Male</option>
+            <option>Female</option>
+          
+      </div>
+      
+      <div class="form-group">
+        <input type="text" id="c-age" class="form-control mr-2 w-50" placeholder="Enter Age">
+      </div>
+      
+      <div class="form-group">
+        <input type="text" id="c-address" class="form-control mr-2" placeholder="Enter Address">
+      </div>
+      
+      <div class="form-group">
+        <input type="date" id="c-date" name="c-date" placeholder="Enter captured Date">
+      </div>
+      
+      <div class="form-group">
+        <div class="col-md-3">
+        <div class="dropdown">
+            <button class="btn btn-block dropdown-toggle w-100" type="button" data-toggle="dropdown">Catagory
+            </button>
+            
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Murder</a>
+            <a class="dropdown-item" href="#">Drug deal</a>
+            <a class="dropdown-item" href="#">Robery</a>
+            </div>
+        </div>
+        </div>
+      </div>
+      
+      <div class="form-group"> 
+        <textarea class="w-100 h-5" rows="6" cols="25" placeholder="Enter Crime description here" ></textarea>
+      </div>
+      
+      <div class="form-group">
+        <label for="file">Attach File</label>
+        <input type="file" class="form-control-file" id="file">
+      </div>
+        <div class="form-group">
+          <small class="form-text text-muted" id="fileHelp">Attach PDF if Possible</small>
+        </div>
+      
+      
+      <div class="form-group">
+        <label class="form-check-label mr-2">
+            <input type="checkbox" class="form-check-input"> Confirm Registration
+        </label>
+      </div>
+      
+      <div class="form-group">
+        <button class="btn btn-warning mr-2" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  
+                          <!--  FOOTER SECTION  -->
+
+  <nav class="navbar navbar-light navbar-toggleable-md bg-inverse">
+    <div class="container">
+
+      <button class="navbar-toggler navbar-toggler-center button-white bg-white" type="button" data-toggle="collapse" data-target="#footerFoot"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="footerFoot">
+        
+        <ul class="navbar-nav">
+          <li class="nav-item mr-4">
+            <a href="#">Contact Us</a> 
+          </li>
+          <li class="nav-item mr-4">
+            <a href="#">Terms</a> 
+          </li>
+          <li class="nav-item mr-4">
+            <a href="#">Privacy</a> 
+          </li>
+          <li class="nav-item mr-4">
+            <a href="#">About Developers</a>
+          </li>
+          </ul>
+          <p> &copy; 2019 Ethiopian federal police.com. All Rights Reserved.</p>
+    </div>
+    </div>
+  </footer>
+
+
+
+
+                      <!--  SCRIPTS SECTION  -->
+      <script src="../bootstrap/js/jquery-1.9.1.min.js"></script>
+      <script src="../bootstrap/js/bootstrap.min.js"></script>
+                  
+</body>
